@@ -3,33 +3,37 @@
   padding-bottom: 20px;
   background-color: #000;
 }
-.header_row {
+.header-row {
   display: flex;
   align-items: center;
   text-transform: uppercase;
 }
-.header_logo {
-  margin-right: 500px;
+.header-logo {
+  margin-right: 600px;
 }
 .logo {
+  /* position: fixed; */
+  /* opacity: 0, 33; */
   font-size: 20px;
+  font-family: "Cormorant";
   color: rgb(179, 173, 173);
+  /* z-index: 1; */
   left: 0;
   white-space: nowrap;
-  word-spacing: 0.5em;
+  /* word-spacing: 0.5em; */
   font-weight: 600;
 }
 
-.header_nav {
+.header-nav {
   font-size: 20px;
   color: rgb(179, 173, 173);
-  font-weight: 600;
+  font-weight: 700;
 }
-.header_list {
+.header-list {
   display: flex;
   justify-content: space-between;
 }
-.header_list a {
+.header-list a {
   background-image: linear-gradient(
     to right,
     #612757,
@@ -46,7 +50,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.header_list a:before {
+.header-list a:before {
   content: "";
   background: #612757;
   color: rgb(179, 173, 173);
@@ -59,15 +63,149 @@
   transition: all 0.3s ease-in-out;
 }
 
-.header_list a:hover {
+.header-list a:hover {
   background-position: 0;
 }
-
-.header_list a:hover::before {
+.header-list a:hover::before {
   width: 100%;
 }
-.header_list li + li {
+.header-list li + li {
   margin-left: 40px;
 }
+
 .home {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #000;
+}
+.home-content {
+  text-align: center;
+}
+.home-subtitle {
+  font-family: "Cinzel";
+  font-size: 30px;
+  font-weight: 700;
+  color: #615B62;
+  margin-bottom: 10px;
+}
+.home-title {
+  font-family: "Cinzel";
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.home-port {
+  font-family: "Cinzel";
+  font-size: 30px;
+  font-weight: 700;
+  color: #615B62;
+}
+.about {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #000;
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  color: #d9d9d9;
+}
+.about-text {
+  color: #d9d9d9;
+  display: flex;
+  justify-content: space-between;
+}
+.about-title {
+  font-family: "Cinzel";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.about-me-text {
+  width: 600px;
+  font-family: "Cormorant", serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.btn {
+  width: 120px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition: 1s ease;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: transparent;
+  height: 50%;
+  width: 100%;
+  transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(8px);
+  transition: 1s ease;
+}
+.btn:hover::before {
+  background: white;
+  top: 30px;
+}
+.about-photo {
+  margin-right: 100px;
+}
+.photo {
+  left: 0;
+  width: 300px;
+  /* height: 450px; */
+  border-radius: 10px;
+}
+
+.footer {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #d9d9d9;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Cormorant", serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer-text {
+  color: #424242;
+  width: 300px;
+}
+.work-mail {
+  border-bottom: 3px solid #612757;
+  color: #612757;
+}
+.work-mail:hover {
+  color: #612757;
+}
+.footer-soc {
+}
+.footer-link-text {
+  margin-bottom: 50px;
+  color: #424242;
+}
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-link a + a {
+  margin-left: 40px;
+}
+.link {
+  width: 50px;
 }

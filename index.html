@@ -10,21 +10,30 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/rese.css" />
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div class="header_row">
-          <div class="header_logo">
+        <div class="header-row">
+          <div class="header-logo">
             <h1 class="logo">Diakovych Vasyl</h1>
             <h2>CREATIVE VEB</h2>
           </div>
-          <nav class="header_nav">
-            <ul class="header_list">
-              <li><a href="">about</a></li>
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li><a href="#about">about</a></li>
               <li><a href="">works</a></li>
-              <li><a href="">contact</a></li>
+              <li><a href="#contact">contact</a></li>
             </ul>
           </nav>
         </div>
@@ -33,16 +42,92 @@
     <main>
       <section class="home">
         <div class="container">
-          <div class="home_content">
-            <h1>DIAKOVYCH VASYL</h1>
-            <h2></h2>
-            <h3>Portfolio 2022</h3>
+          <div class="home-content wow slideInLeft">
+            <img src="" alt="">
+            <h1 class="home-subtitle">
+              Diakovych Vasyl
+            </h1>
+            <h2 class="home-title">
+              CREATIVE
+              WEB DEVELOPER
+            </h2>
+            <h3 class="home-port">
+              PORTFOLIO 2022
+            </h3>
           </div>
         </div>
       </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about-content wow slideInDown">
+            <div class="about-text">
+              <div>
+                <h1 class="about-title">About me</h1>
+                <p class="about-me-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Autem eius voluptate corrupti consequuntur quas error ipsum,
+                  facere laborum accusamus illo assumenda, ea sunt, quos tempore
+                  vero sapiente! Commodi, consequuntur dolores.
+                </p>
+                <div class="about-btn">
+                  <a class="btn" href="./img/CV.pdf" target="_blank"
+                    >MORE INFO</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="about-photo">
+              <img class="photo" src="./img/photo_1.jpg" alt="My photo" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="container">
+
+        </div>
+      </section>
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="footer-content wow slideInLeft">
+            <h2 class="footer-text">
+              You can send me an
+              <a class="work-mail" href="mailto:v.diakovych13@gmail.com"
+                >e-mail</a
+              >
+              with any information.
+            </h2>
+            <div class="footer-soc">
+              <h3 class="footer-link-text">You can also follow me</h3>
+              <div class="footer-link">
+                <a class="link" href="https://www.linkedin.com/in/vasyl-diakovych-1ab79a1b6/" target="_blank"
+                  ><img
+                    src="./img/free-icon-linkedin-1384014.png"
+                    alt="linkedin"
+                /></a>
+                <a class="link" href="https://t.me/v_dyakovich" target="_blank"
+                  ><img
+                    src="./img/telegram.png"
+                    alt="telegram"
+                /></a>
+                <a
+                  class="link"
+                  href="https://www.instagram.com/vasyl_diakovych/"
+                  target="_blank"
+                  ><img
+                    src="./img/free-icon-instagram-1384015.png"
+                    alt="instagram"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
-    <script src="./main.js">
-      
-    </script>
+    <script src="./main.js"></script>
+    <script src="./js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
   </body>
 </html>
