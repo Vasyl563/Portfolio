@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/rese.css" />
-    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/animate.css" />
     <link rel="shortcut icon" href="./img/favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
@@ -25,17 +25,16 @@
     <header class="header">
       <div class="container">
         <div class="header-row">
-          <div class="header-logo">
-            <h1 class="logo">Diakovych Vasyl</h1>
-            <h2>CREATIVE VEB</h2>
+          <h1 class="logo">Diakovych Vasyl</h1>
+          <div class="header-row">
+            <nav class="header-nav">
+              <ul class="header-list">
+                <li><a href="#about">about</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="#contact">contact</a></li>
+              </ul>
+            </nav>
           </div>
-          <nav class="header-nav">
-            <ul class="header-list">
-              <li><a href="#about">about</a></li>
-              <li><a href="">works</a></li>
-              <li><a href="#contact">contact</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
@@ -43,17 +42,10 @@
       <section class="home">
         <div class="container">
           <div class="home-content wow slideInLeft">
-            <img src="" alt="">
-            <h1 class="home-subtitle">
-              Diakovych Vasyl
-            </h1>
-            <h2 class="home-title">
-              CREATIVE
-              WEB DEVELOPER
-            </h2>
-            <h3 class="home-port">
-              PORTFOLIO 2022
-            </h3>
+            <img src="" alt="" />
+            <h1 class="home-subtitle">Diakovych Vasyl</h1>
+            <h2 class="home-title">CREATIVE WEB DEVELOPER</h2>
+            <h3 class="home-port">PORTFOLIO 2022</h3>
           </div>
         </div>
       </section>
@@ -64,15 +56,15 @@
               <div>
                 <h1 class="about-title">About me</h1>
                 <p class="about-me-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Autem eius voluptate corrupti consequuntur quas error ipsum,
-                  facere laborum accusamus illo assumenda, ea sunt, quos tempore
-                  vero sapiente! Commodi, consequuntur dolores.
+                  Hi, I'm Vasyl and I like to create websites. 
+                  I'm an enthusiastic and detail-oriented.
+                  Frontend Software Engineer seeking an entry-level position
+                  with Company to use my skills in coding, troubleshooting
+                  complex problems, and assisting in the timely completion of
+                  projects.
                 </p>
                 <div class="about-btn">
-                  <a class="btn" href="./img/CV.pdf" target="_blank"
-                    >MORE INFO</a
-                  >
+                  <a class="btn" href="./img/CV.pdf" target="_blank">MY CV</a>
                 </div>
               </div>
             </div>
@@ -82,9 +74,50 @@
           </div>
         </div>
       </section>
-      <section class="works">
+      <section class="works" id="works">
         <div class="container">
+          <div class="works-content">
+            <h1 class="works-title">My Works</h1>
 
+            <ul class="web-text">
+              <div>
+                <li>
+                  <a
+                    href="https://studio-navy.vercel.app/"
+                    class="website-1"
+                    target="_blank"
+                    ><p class="works-website-title">Studio</p></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://project-3-xi.vercel.app/"
+                    class="website-2"
+                    target="_blank"
+                    ><p class="works-website-title">Alivio</p></a
+                  >
+                </li>
+              </div>
+              <div>
+                <li>
+                  <a
+                    href="https://project-1-ebon.vercel.app/"
+                    class="website-3"
+                    target="_blank"
+                    ><p class="works-website-title">LogoType</p></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://vue-project-indol.vercel.app/"
+                    class="website-4"
+                    target="_blank"
+                    ><p class="works-website-title">VUE</p></a
+                  >
+                </li>
+              </div>
+            </ul>
+          </div>
         </div>
       </section>
       <footer class="footer" id="contact">
@@ -100,15 +133,19 @@
             <div class="footer-soc">
               <h3 class="footer-link-text">You can also follow me</h3>
               <div class="footer-link">
-                <a class="link" href="https://www.linkedin.com/in/vasyl-diakovych-1ab79a1b6/" target="_blank"
+                <a
+                  class="link"
+                  href="https://www.linkedin.com/in/vasyl-diakovych-1ab79a1b6/"
+                  target="_blank"
                   ><img
                     src="./img/free-icon-linkedin-1384014.png"
                     alt="linkedin"
                 /></a>
                 <a class="link" href="https://t.me/v_dyakovich" target="_blank"
-                  ><img
-                    src="./img/telegram.png"
-                    alt="telegram"
+                  ><img src="./img/telegram.png" alt="telegram"
+                /></a>
+                <a class="link" href="https://t.me/v_dyakovich" target="_blank"
+                  ><img src="./img/free-icon-github-1051326.png" alt="GitHub"
                 /></a>
                 <a
                   class="link"
@@ -126,8 +163,8 @@
     </main>
     <script src="./main.js"></script>
     <script src="./js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
