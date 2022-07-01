@@ -10,7 +10,7 @@
   text-transform: uppercase;
 }
 .logo {
-  /* position: fixed; 
+  /* position: fixed;
   /* opacity: 0, 33; */
   font-size: 20px;
   font-family: "Cormorant";
@@ -106,9 +106,6 @@
   background-color: #000;
   border-top: 1px solid #fff;
 }
-.works-content {
-  
-}
 .works-title {
   color: #fff;
   font-family: "Cinzel";
@@ -119,19 +116,27 @@
 .web-text {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   color: #fff;
   font-family: "Cinzel";
   font-weight: 700;
   font-size: 25px;
 }
+.web-text li {
+  width: 40%;
+}
+.web-text li a:hover {
+  box-shadow: 0 10px 15px #ffffff2e;
+}
 
-.website-1 {
+.website-1, .website-3 {
   display: block;
-  width: 400px;
+  width: 100%;
   height: 250px;
-  background: rgb(39, 179, 221);
+  background: #1c1b1b;
   border-radius: 20px;
   margin-bottom: 40px;
+  transition: .3s all;
 }
 .works-website-title {
   display: flex;
@@ -139,27 +144,13 @@
   flex-direction: row;
   padding-top: 100px;
 }
-.website-2 {
+.website-2, .website-4 {
   display: block;
-  width: 400px;
+  width: 100%;
   height: 250px;
-  background: #01996d;
+  background: #1c1b1b;
   border-radius: 20px;
-}
-.website-3 {
-  display: block;
-  width: 400px;
-  height: 250px;
-  background: rgb(194, 9, 123);
-  border-radius: 20px;
-  margin-bottom: 40px;
-}
-.website-4 {
-  display: block;
-  width: 400px;
-  height: 250px;
-  background: rgb(156, 167, 7);
-  border-radius: 20px;
+  transition: .3s all;
 }
 .about {
   padding-top: 80px;
@@ -189,26 +180,31 @@
   font-size: 25px;
   margin-bottom: 20px;
 }
-.btn {
-  width: 120px;
-  height: 60px;
+
+.about-btn {
+  display: flex;
+}
+
+.about-btn .btn {
+  padding: 15px 40px;
   border: 2px solid white;
   border-radius: 10px;
   background-color: transparent;
   color: white;
   cursor: pointer;
   position: relative;
+  margin-top: 1rem;
 }
-.btn:hover {
+.about-btn .btn:hover {
   background-color: white;
   color: black;
   transition: 1s ease;
 }
-.btn:before {
+.about-btn .btn:before {
   content: "";
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 70px;
   background: transparent;
   height: 50%;
   width: 100%;
@@ -218,7 +214,7 @@
 }
 .btn:hover::before {
   background: white;
-  top: 30px;
+  top: 45px;
 }
 .about-photo {
   margin-right: 100px;
@@ -228,6 +224,7 @@
   width: 300px;
   /* height: 450px; */
   border-radius: 10px;
+  filter: grayscale(1);
 }
 
 .footer {
