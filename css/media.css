@@ -151,7 +151,7 @@
 }  */
 @media (max-width: 1399px) {
   .container {
-     width: 100%;
+    width: 100%;
     padding-left: 110px;
     padding-right: 110px;
   }
@@ -165,7 +165,6 @@
   .about {
     padding-top: 80px;
     padding-bottom: 80px;
-    
   }
   .about-text {
     padding-top: 100px;
@@ -174,8 +173,7 @@
     margin-right: 0;
   }
 }
-@media (max-width: 991px){
-
+@media (max-width: 991px) {
   .about {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -198,42 +196,42 @@
 @media (max-width: 899px) {
   .container {
     width: 100%;
-   padding-left: 80px;
-   padding-right: 80px;
- }
- .logo {
-  display: none;
- }
- .logo-mobile {
-  font-size: 25px;
-  font-family: "Cormorant";
-  color: rgb(179, 173, 173);
-  left: 0;
-  white-space: nowrap;
-  font-weight: 600;
- }
- .header-nav {
- display: none;
-}
-.header-list {
-  display: flex;
-  justify-content: space-between;
-}
- .home {
-  padding-top: 165px;
-  padding-bottom: 165px;
- }
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-mobile {
+    font-size: 25px;
+    font-family: "Cormorant";
+    color: rgb(179, 173, 173);
+    left: 0;
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .home {
+    padding-top: 165px;
+    padding-bottom: 165px;
+  }
 }
 @media (max-width: 755px) {
   .container {
     width: 100%;
-   padding-left: 60px;
-   padding-right: 60px;
- }
- .home {
-  padding-top: 140px;
-  padding-bottom: 140px;
- }
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .home {
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
   .about {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -256,12 +254,11 @@
     font-size: 25px;
     margin-bottom: 20px;
   }
-  
+
   .about-btn {
     display: flex;
   }
 
-  
   .about-photo {
     margin-top: 50px;
     margin-right: unset;
@@ -284,20 +281,17 @@
     justify-content: space-between;
     font-size: 20px;
     font-weight: 600;
-    
   }
   .footer-text {
     margin-bottom: 20px;
     text-align: center;
     width: unset;
   }
-  
- 
+
   .footer-link-text {
     margin-bottom: 30px;
-    margin-left: 44px;
+    text-align: center;
     color: #424242;
-  
   }
   .footer-link {
     display: flex;
@@ -312,7 +306,7 @@
 }
 @media (max-width: 699px) {
   .container {
-     width: 100%;
+    width: 100%;
     padding-left: 45px;
     padding-right: 45px;
   }
@@ -320,8 +314,100 @@
 
 @media (max-width: 599px) {
   .container {
-     width: 100%;
+    width: 100%;
     padding-left: 40px;
     padding-right: 40px;
+  }
+  .about {
+     /* background-image: url(/img/photo_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain; 
+/* z-index: 1;
+position: relative; */
+     /* filter: grayscale(1);  */
+  }
+  #wrapper {
+    position: absolute;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+  }
+  .about-text {
+    color: rgb(255, 250, 250);
+    padding-top: 50px;
+  }
+  .about-title {
+    text-align: center;
+    font-size: 30px;
+  }
+  .about-me-text {
+    text-align: center;
+  }
+  .about-btn{
+    justify-content: center;
+  }
+  .about-photo {
+    display: none;
+  }
+  /* .mobile-photo {
+    display: inline;
+    width: 100%;
+    height: 80%;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    filter: grayscale(1);
+  } */
+}
+
+@media (max-width: 470px) {
+  .container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .works {
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+  }
+  .works-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .web-text {
+    font-size: 25px;
+  }
+  .website-1,
+  .website-3 {
+    height: 120px;
+    margin-bottom: 40px;
+  }
+  .works-website-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: unset;
+    padding-top: 40px;
+  }
+  .website-2,
+  .website-4 {
+    height: 120px;
+}
+}
+
+@media (max-width: 400px) {
+  .works-website-title {
+    font-size: 19px;
   }
 }
