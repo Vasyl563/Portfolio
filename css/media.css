@@ -318,24 +318,43 @@
     padding-left: 40px;
     padding-right: 40px;
   }
-  .about {
-     /* background-image: url(/img/photo_1.jpg);
+  .home {
+    background-image: url(/img/photo_1.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center;
+    /* background-attachment: fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: contain; 
-/* z-index: 1;
-position: relative; */
-     /* filter: grayscale(1);  */
+    background-size: 100%;
+    filter: grayscale(1);
+    opacity: 0.8;
   }
-  #wrapper {
+  .home-subtitle {
+    font-family: "Cinzel";
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .home-title {
+    font-family: "Cinzel";
+    font-size: 45px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .home-port {
+    font-family: "Cinzel";
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+  }
+  /* #wrapper {
     position: absolute;
     overflow: hidden;
     z-index: -1;
-  }
+  } */
   .about-content {
     display: flex;
     justify-content: space-between;
@@ -352,13 +371,13 @@ position: relative; */
   .about-me-text {
     text-align: center;
   }
-  .about-btn{
+  .about-btn {
     justify-content: center;
   }
   .about-photo {
     display: none;
   }
-  /* .mobile-photo {
+  .mobile-photo {
     display: inline;
     width: 100%;
     height: 80%;
@@ -366,7 +385,7 @@ position: relative; */
     right: 0;
     opacity: 0.6;
     filter: grayscale(1);
-  } */
+  }
 }
 
 @media (max-width: 470px) {
@@ -378,7 +397,6 @@ position: relative; */
   .works {
     padding-top: 50px;
     padding-bottom: 40px;
-
   }
   .works-title {
     text-align: center;
@@ -403,7 +421,7 @@ position: relative; */
   .website-2,
   .website-4 {
     height: 120px;
-}
+  }
 }
 
 @media (max-width: 400px) {
