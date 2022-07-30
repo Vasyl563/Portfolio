@@ -128,9 +128,6 @@ legend {
   margin-right: auto;
 }
 
-
-
-
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -199,115 +196,6 @@ legend {
 .header-list li + li {
   margin-left: 40px;
 }
-/* BUTTON-MOBL */
-
-.mobile-nav-button {
-	/* Reset for button */
-	cursor: pointer;
-	padding: 0;
-	border: none;
-	background: transparent;
-
-	/* Nav icon styles*/
-	position: relative;
-	z-index: 999;
-	width: 40px;
-	height: 30px;
-	justify-content: center;
-	align-items: center;
-    display: none;
-}
-
-@media (max-width: 899px){
-    .mobile-nav-button {
-        display: flex;
-    }
-}
-
-.mobile-nav-button__icon {
-	display: block;
-	position: relative;
-	width: 40px;
-	height: 5px;
-	background-color: #fff;
-}
-
-.mobile-nav-button__icon::after,
-.mobile-nav-button__icon::before {
-	position: absolute;
-	content: '';
-	width: 40px;
-	height: 5px;
-	background-color: #fff;
-    /* Трансформація при закриванні */
-	transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
-}
-
-.mobile-nav-button__icon::before {
-	left: 0;
-	top: -10px;
-}
-
-.mobile-nav-button__icon::after {
-	left: 0;
-	top: 10px;
-}
-
-.mobile-nav-button__icon.active {
-	background-color: #000;
-}
-
-.mobile-nav-button__icon.active::before {
-	transform: rotate(45deg);
-	top: 0;
-    /* Трансформація при відкриті */
-	transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
-}
-
-.mobile-nav-button__icon.active::after {
-	transform: rotate(-45deg);
-	top: 0;
-    /* Трансформация при відкриті */
-	transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
-}
-/* MOBILE */
-.mobile-nav {
-  display: none;
-  position: fixed;
-  z-index: 99;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255, 255, 255, 1);
-  /* display: flex; */
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 15px;
-  text-align: center;
-
-}
-.mobile-nav.active {
-  display: flex;
-}
-.mobile-nav-logo{
-  font-family: "Cormorant";
-  color: rgb(179, 173, 173);
-  white-space: nowrap;
-  margin-top: 20px;
-  font-weight: bold;
-  font-size: 30px;
-}
-.mobile-nav-list {
-margin-top: 30vh;
-color: rgb(48, 47, 47);
-  font-weight: 700;
-  font-size: 35px; 
-}
-.mobile-nav-list li + li {
-  margin-top: 30px;
-}
-
 /* Home */
 .home {
   padding-top: 200px;
