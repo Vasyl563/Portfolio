@@ -8,11 +8,15 @@
 
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/animate.css" />
     <link rel="stylesheet" href="./css/mobile-nav.css">
     <link rel="stylesheet" href="./css/button.css">
     <link rel="shortcut icon" href="./img/favicon.ico" />
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <link
       href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
       rel="stylesheet"
@@ -24,10 +28,10 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container-main">
         <div class="header-row">
           <h1 class="logo">Diakovych Vasyl</h1>
-          <h1 class="logo-mobile">DV</h1>
+          <h2 class="logo-mobile">DV</h2>
           <div class="header-row">
             <nav class="header-nav">
               <ul class="header-list menu">
@@ -44,7 +48,7 @@
       </div>
     </header>
     <div class="mobile-nav">
-      <h1 class="mobile-nav-logo">Diakovych Vasyl</h1></h1>
+      <h1 class="mobile-nav-logo">Diakovych Vasyl</h1>
       <div>
       <nav class="mobile-nav-list">
       <ul class="mobile-click">
@@ -57,7 +61,7 @@
     </div>
     <main>
       <section class="home">
-        <div class="container">
+        <div class="container-main">
           <div class="home-content wow slideInLeft">
             <img src="" alt="" />
             <h1 class="home-subtitle">Diakovych Vasyl</h1>
@@ -67,7 +71,7 @@
         </div>
       </section>
       <section class="about" id="about">
-        <div class="container">
+        <div class="container-main">
           <div class="about-content wow slideInDown">
             <div class="about-text">
               <div>
@@ -93,49 +97,96 @@
         </div>
       </section>
       <section class="works" id="projects">
-        <div class="container">
-          <div class="works-content">
-            <h1 class="works-title">MY PROJECTS</h1>
+        <div class="container elements"> 
+          <div class="slider elements"> 
 
-            <ul class="web-text">
-              <li>
-                <a
-                  href="https://studio-navy.vercel.app/"
-                  class="website-1"
-                  target="_blank"
-                  ><p class="works-website-title">Studio</p></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://project-3-xi.vercel.app/"
-                  class="website-2"
-                  target="_blank"
-                  ><p class="works-website-title">Alivio</p></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://project-1-ebon.vercel.app/"
-                  class="website-3"
-                  target="_blank"
-                  ><p class="works-website-title">LogoType</p></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://vue-project-indol.vercel.app/"
-                  class="website-4"
-                  target="_blank"
-                  ><p class="works-website-title">VUE</p></a
-                >
-              </li>
-            </ul>
+              <div class="box1 box elements">
+                  <div class="bg elements"></div>
+                  <div class="details elements">
+                      <h1 class="title-works">Second Portfolio</h1>
+                      <p class="text-works">
+                        My second portfolio should become the main one in the future. I implemented it using Vue.js and the Vuetify library. In this site, I used ready-made components and styled them according to my design.
+                      </p>
+                      <a href="https://my-portfolio-ten-sigma.vercel.app/" class="btn-works" target="_blank" >Check Now</a>
+                  </div>
+                  <div class="illustration elements"><div class="inner elements"></div></div>
+              </div>
+
+              
+              <div class="box2 box elements">
+                  <div class="bg elements"></div>
+                  <div class="details elements">
+                      <h1 class="title-works">STUDIO</h1>
+                      <p class="text-works">
+                          Studio - a site where I experimented with the positioning of elements. I used HTML, CSS, and BEM methodology to write this site. 
+                      </p>
+                      <a href="https://studio-navy.vercel.app/" class="btn-works" target="_blank" >Check Now</a>
+                  </div>
+
+                  <div class="illustration elements"><div class="inner elements"></div></div>
+              </div>
+                              
+              <div class="box3 box elements">
+                  <div class="bg elements"></div>
+                  <div class="details elements">
+                      <h1 class="title-works">ALIVIO</h1>
+                      <p class="text-works">
+                        Alivio - if you have stress, this site will help 
+                        you get rid of it. Used the following
+                        technologies: HTML, CSS. 
+                      </p>
+                      <a href="https://project-3-xi.vercel.app/" class="btn-works" target="_blank" >Check Now</a>
+                  </div>
+
+                  <div class="illustration elements"><div class="inner elements"></div></div>
+              </div>
+                              
+              <div class="box4 box elements">
+                  <div class="bg elements"></div>
+                  <div class="details elements">
+                      <h1 class="title-works">LOGOTYPE</h1>
+                      <p class="text-works">
+                        A comprehensive approach to your question, timely legal
+                        assistance, and representation of interests in all
+                        court instances. Used the following
+                        technologies: HTML, CSS, JavaScript.
+                      </p>
+                      <a href="https://project-1vercel.app/" class="btn-works" target="_blank">Check Now</a>
+                  </div>
+
+                  <div class="illustration elements"><div class="inner elements"></div></div>
+              </div>
+                              
+              <div class="box5 box elements">
+                  <div class="bg elements"></div>
+                  <div class="details elements">
+                      <h1 class="title-works">Colors</h1>
+                      <p class="text-works">
+                        Colors is a random color generator that updates when you click "space".
+                        You can also color block and copy.
+                        I used the following technologies: HTML CSS JavaScript. 
+                      </p>
+                      <a class="btn-works" target="_blank" href="https://colors-vert.vercel.app/">Check Now</a>
+                  </div>
+
+                  <div class="illustration elements"><div class="inner elements"></div></div>
+              </div>
+                              
           </div>
-        </div>
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+          <div class="trail elements">
+                  <div class="box1 active elements">1</div>
+                  <div class="box2 elements">2</div>
+                  <div class="box3 elements">3</div>
+                  <div class="box4 elements">4</div>
+                  <div class="box5 elements">5</div>
+          </div>
+      </div>   
       </section>
       <footer class="footer" id="contact">
-        <div class="container">
+        <div class="container-main">
           <div class="footer-content wow slideInLeft">
             <h2 class="footer-text">
               You can send me an
@@ -175,8 +226,11 @@
         </div>
       </footer>
     </main>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
     <script src="./js/wow.min.js"></script>
     <script src="./js/button.js"></script>
+    <script src="./js/main.js"></script>
     <script>
       new WOW().init();
     </script>

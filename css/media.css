@@ -1,12 +1,12 @@
 @media (max-width: 1399px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 110px;
     padding-right: 110px;
   }
 }
 @media (max-width: 1199px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 95px;
     padding-right: 95px;
@@ -43,7 +43,7 @@
   }
 }
 @media (max-width: 899px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 80px;
     padding-right: 80px;
@@ -73,7 +73,7 @@
   }
 }
 @media (max-width: 755px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 60px;
     padding-right: 60px;
@@ -154,7 +154,7 @@
   }
 }
 @media (max-width: 699px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 45px;
     padding-right: 45px;
@@ -162,7 +162,7 @@
 }
 
 @media (max-width: 599px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
@@ -233,7 +233,7 @@
 }
 
 @media (max-width: 470px) {
-  .container {
+  .container-main {
     width: 100%;
     padding-left: 25px;
     padding-right: 25px;

@@ -121,7 +121,7 @@ legend {
 .no-scroll {
   overflow: hidden;
 }
-.container {
+.container-main {
   padding-left: 120px;
   padding-right: 120px;
   margin-left: auto;
@@ -247,9 +247,14 @@ legend {
   font-family: "Cinzel";
   font-weight: 700;
   font-size: 25px;
+  
 }
 .web-text li {
   width: 40%;
+  flex: 0 0 100%;
+  padding: 30px;
+  scroll-snap-align: start;
+  border-radius: 30px;
 }
 .web-text li a:hover {
   box-shadow: 0 10px 15px #ffffff2e;
